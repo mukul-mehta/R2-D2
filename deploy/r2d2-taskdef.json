@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::848472830311:role/AWSTaskRoleForECS",
+  "executionRoleArn": "arn:aws:iam::322251010245:role/AWSTaskRoleForECS",
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
@@ -32,7 +32,7 @@
         },
         {
           "name": "C3PO_URI",
-          "value": "https://api.lttkgp.com"
+          "value": "https://api.metamehta.in"
         },
         {
           "name": "DISPATCHER_FREQUENCY",
@@ -58,23 +58,23 @@
       "workingDirectory": null,
       "secrets": [
         {
-          "valueFrom": "arn:aws:secretsmanager:ap-south-1:848472830311:secret:AWS_ACCESS_KEY_ID-PYkRIO",
+          "valueFrom": "arn:aws:secretsmanager:ap-south-1:322251010245:secret:AWS_ACCESS_KEY_ID-nguBiS",
           "name": "AWS_ACCESS_KEY_ID"
         },
         {
-          "valueFrom": "arn:aws:secretsmanager:ap-south-1:848472830311:secret:AWS_SECRET_ACCESS_KEY-gE27qn",
+          "valueFrom": "arn:aws:secretsmanager:ap-south-1:322251010245:secret:AWS_SECRET_ACCESS_KEY-5PZKb8",
           "name": "AWS_SECRET_ACCESS_KEY"
         },
         {
-          "valueFrom": "arn:aws:secretsmanager:ap-south-1:848472830311:secret:FB_APP_SECRET-VkIaww",
+          "valueFrom": "arn:aws:secretsmanager:ap-south-1:322251010245:secret:FB_APP_SECRET-xvRJiJ",
           "name": "FB_APP_SECRET"
         },
         {
-          "valueFrom": "arn:aws:secretsmanager:ap-south-1:848472830311:secret:FB_LONG_ACCESS_TOKEN-jFP9xx",
+          "valueFrom": "arn:aws:secretsmanager:ap-south-1:322251010245:secret:FB_LONG_ACCESS_TOKEN-915kep",
           "name": "FB_LONG_ACCESS_TOKEN"
         },
         {
-          "valueFrom": "arn:aws:secretsmanager:ap-south-1:848472830311:secret:WHOAMI-HS4gPo",
+          "valueFrom": "arn:aws:secretsmanager:ap-south-1:322251010245:secret:WHOAMI-ro3fQI",
           "name": "WHOAMI"
         }
       ],
@@ -83,7 +83,7 @@
       "memoryReservation": 512,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "848472830311.dkr.ecr.ap-south-1.amazonaws.com/r2d2:latest",
+      "image": "322251010245.dkr.ecr.ap-south-1.amazonaws.com/r2d2:latest",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -105,9 +105,8 @@
   ],
   "placementConstraints": [],
   "memory": "512",
-  "taskRoleArn": "arn:aws:iam::848472830311:role/AWSTaskRoleForECS",
+  "taskRoleArn": "arn:aws:iam::322251010245:role/AWSTaskRoleForECS",
   "compatibilities": ["EC2", "FARGATE"],
-  "taskDefinitionArn": "arn:aws:ecs:ap-south-1:848472830311:task-definition/r2d2-taskdef:13",
   "family": "r2d2-taskdef",
   "requiresAttributes": [
     {
