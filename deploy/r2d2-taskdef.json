@@ -107,6 +107,7 @@
   "memory": "512",
   "taskRoleArn": "arn:aws:iam::322251010245:role/AWSTaskRoleForECS",
   "compatibilities": ["EC2", "FARGATE"],
+  "taskDefinitionArn": "arn:aws:ecs:ap-south-1:322251010245:task-definition/r2d2-taskdef:2",
   "family": "r2d2-taskdef",
   "requiresAttributes": [
     {
